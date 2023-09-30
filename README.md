@@ -3,22 +3,27 @@
 ### Python script to dynamically fetch AWS weather data from the IMD website automatically
 
 ## Steps to run locally
-1) Create virtual environment:
-```console
+1) Install Chromium Browser"
+```shell
+$ sudo apt install -y chromium-browser
+```
+
+2) Create virtual environment:
+```shell
 $ python3 -m venv venv
 ```
 
-2) Activate virtual environment:
-```console
+3) Activate virtual environment:
+```shell
 $ . venv/Scripts/activate
 ```
 
-3) Install dependencies:
-```console
+4) Install dependencies:
+```shell
 $ pip install -r requirements.txt
 ```
 
-4) Run the python file:
-```console
+5) Run the python file:
+```shell
 $ python3 main.py
 ```
