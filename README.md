@@ -20,5 +20,5 @@ $ pip install -r requirements.txt
 
 4) Run the python file:
 ```console
-$ py main.py
+$ python3 main.py
 ```
