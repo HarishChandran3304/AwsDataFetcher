@@ -5,13 +5,11 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.remote.webelement import WebElement
 from time import sleep
 from typing import List, Type
-import pprint
 
 
 # SETUP
 URL = r"http://aws.imd.gov.in:8091/state.php?id=TAMIL_NADU"
-driver = webdriver.Chrome()
-pp = pprint.PrettyPrinter(indent=4)
+driver = webdriver.Firefox()
 
 
 # HELPER FUNCTIONS
