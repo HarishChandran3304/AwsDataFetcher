@@ -140,7 +140,7 @@ def main():
     sleep(10)
 
     table_data = get_table_data()
-    pp.pprint(table_data)
+    print(table_data)
     sleep(10)
 
     driver.quit()
