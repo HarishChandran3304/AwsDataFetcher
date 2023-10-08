@@ -3,7 +3,7 @@
 ### Python script to dynamically fetch AWS weather data from the IMD website automatically
 
 ## Steps to run locally
-1) Install Chromium Browser"
+1) Install Chromium Browser
 ```shell
 $ sudo apt install -y chromium-browser
 ```
