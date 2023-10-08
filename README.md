@@ -15,7 +15,7 @@ $ python3 -m venv venv
 
 3) Activate virtual environment:
 ```shell
-$ . venv/Scripts/activate
+$ source venv/bin/activate
 ```
 
 4) Install dependencies:
